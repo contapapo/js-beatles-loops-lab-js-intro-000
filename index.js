@@ -20,7 +20,7 @@ function iLoveTheBeatles(n) {
     do {
       beat.push("I love the Beatles!");
       n--
-    } while (n === 0);
+    } while (n === -1);
   }
   else {
     beat.push("I love the Beatles!");
