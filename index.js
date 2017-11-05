@@ -19,11 +19,11 @@ function iLoveTheBeatles(n) {
   if (n <= 14){
     do {
       beatles.push("I love the Beatles!");
-      n--
-    } while (n === -1);
+      n--;
+    } while (n == 0);
   }
   else {
     beatles.push("I love the Beatles!");
   }
-  return beat;
+  return beatles;
 }
